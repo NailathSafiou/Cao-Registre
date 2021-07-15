@@ -1,0 +1,86 @@
+@use "./variable";
+
+.large-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: none;
+  
+  tr {
+    transition: 0.4s;
+    th {
+      color: #ccc;
+      font-weight: 500;
+    }
+
+    th,
+    td {
+      text-align: left;
+      padding: 0.5rem;
+      .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        span {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+  
+  thead {
+    th {
+      padding-bottom: 2rem;
+    }
+  }
+  
+  tbody {
+    tr:hover {
+      cursor: pointer;
+      background-color: #fafafa;
+    }
+  }
+  
+}
+
+.display-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: none;
+  
+  tr {
+    transition: 0.4s;
+    border-bottom: 1px solid #CCCCCC;
+    th {
+      color: #fff;
+      font-weight: 500;
+    }
+
+    th,
+    td {
+      text-align: left;
+      padding: 1rem;
+      font-size: 13px;
+      .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        span {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+  
+  thead {
+    background-color: #444444;
+  }
+  
+  tbody {
+    tr:hover {
+      cursor: pointer;
+      background-color: #eeeeee;
+    }
+  }
+}

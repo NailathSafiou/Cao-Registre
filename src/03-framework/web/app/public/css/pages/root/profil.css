@@ -1,0 +1,113 @@
+.profil-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1rem;
+}
+.profil-content .profil-summury {
+  width: 400px;
+  max-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  position: sticky;
+  top: 63px;
+  z-index: 0;
+}
+.profil-content .profil-summury #p-nom {
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 2rem;
+}
+.profil-content .profil-summury a {
+  color: blue;
+  text-decoration: none;
+  padding-top: 0.5rem;
+}
+.profil-content .profil-summury .gray-text {
+  color: #777;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.profil-content .profil-summury #roles {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1rem;
+}
+.profil-content .profil-summury #roles span {
+  background-color: #eee;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+}
+.profil-content .profil-summury .divider {
+  border-bottom: 1px solid #eee;
+  width: 100%;
+}
+.profil-content .profil-summury .account-stat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.profil-content .profil-summury .account-stat #stat-text {
+  padding: 0.5rem;
+}
+.profil-content .profil-summury .account-stat #stat-icon {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 100px;
+}
+.profil-content .profil-summury .account-stat .left-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.profil-content .profil-summury .account-stat .left-row .green {
+  background-color: green;
+}
+.profil-content .profil-summury .account-stat .left-row .red {
+  background-color: red;
+}
+.profil-content .profil-data {
+  flex: 1;
+  padding: 2rem;
+}
+.profil-content .profil-data .title {
+  padding-top: 2rem;
+}
+.profil-content .profil-data .cuf-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+}
+.profil-content .profil-data .cuf-content .form-group {
+  min-width: 300px;
+  max-width: 100%;
+  width: 200px;
+  margin-right: 1rem;
+}
+.profil-content .profil-data .cuf-content .form-group input,
+.profil-content .profil-data .cuf-content .form-group select {
+  border: none;
+  padding-left: 0;
+}
+.profil-content .profil-data .cuf-footer {
+  padding: 0.5rem;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  border-top: 1px solid #ccc;
+  background-color: white;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=profil.css.map */

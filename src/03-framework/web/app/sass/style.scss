@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Indie Flower', cursive;*/
+  /*font-family: 'Ubuntu', sans-serif;*/
+  font-weight: 550;
+}
+
+@import "./button";
+@import "./table";
+@import "./custom";
+@import "./form";
+
+.text-h1 {
+  font-size: 18px;
+}
+
+.text-p {
+  font-size: 14px;
+}
+
+.text-small {
+  font-size: 13px;
+}
+
+.text-h2 {
+  font-size: 15px;
+}
+

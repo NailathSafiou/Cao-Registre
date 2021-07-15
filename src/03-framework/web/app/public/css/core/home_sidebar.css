@@ -1,0 +1,40 @@
+.sidebar {
+  min-height: 100vh;
+  max-height: 100vh;
+  padding-top: 63px;
+  border-right: 1px solid #cccccc;
+  position: sticky;
+  top: 63px;
+  left: 0;
+  background-color: white;
+  z-index: 5;
+}
+.sidebar .sidebar-item {
+  border-bottom: 1px solid #eee;
+  padding: 1rem;
+}
+.sidebar .sidebar-item .myicon {
+  font-size: 24px;
+  padding: 0rem 1rem;
+}
+.sidebar .selected-item {
+  background-color: #A9BCFF;
+}
+.sidebar .sidebar-item:hover {
+  cursor: pointer;
+  background-color: #eee;
+}
+
+.icon-admin {
+  color: #5e92f3;
+}
+
+.icon-stats {
+  color: #5e92f3;
+}
+
+.icon-mail {
+  color: #5e92f3;
+}
+
+/*# sourceMappingURL=home_sidebar.css.map */

@@ -1,0 +1,236 @@
+<div class="profil-update-form">
+
+  {{> loading/bar_loading }}
+
+  <div class="title">
+    <span class="text-h1">Informations personnelles</span>
+  </div>
+
+  <div class="cuf-content">
+    <div class="form-group">
+      <label for="nom">Nom</label>
+      <input type="text" id="nom" placeholder="">
+    </div>
+
+    <div class="form-group">
+      <label for="prenom">Prenom</label>
+      <input type="text" id="prenom" placeholder="">
+    </div>
+
+    <div class="form-group">
+      <label for="adresse">Adresse</label>
+      <input type="text" id="adresse" placeholder="">
+    </div>
+
+    <div class="form-group">
+      <label for="boite_postale">Boite postale</label>
+      <input type="text" id="boite_postale" placeholder="">
+    </div>
+
+    <div class="form-group">
+      <label for="ville">Ville</label>
+      <input type="text" id="ville" placeholder="">
+    </div>
+
+    <div class="form-group">
+      <label for="date_naissance">Date de naissance</label>
+      <input type="date" id="date_naissance" placeholder="">
+    </div>
+
+    <div class="form-group">
+      <label for="lieu_naissance">Lieu de naissance</label>
+      <input type="text" id="lieu_naissance" placeholder="">
+    </div>
+
+    <div class="form-group">
+      <label for="prenom">Sexe</label>
+      <select type="text" id="sexe">
+        <option value="M">Masculin</option>
+        <option value="F">Feminin</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="nom_pere">Nom du père</label>
+      <input type="text" id="nom_pere" placeholder="">
+    </div>
+
+    <div class="form-group">
+      <label for="nom_mere">Nom du mère</label>
+      <input type="text" id="nom_mere" placeholder="">
+    </div>
+  </div>
+
+  <div class="title">
+    <span class="text-h1">Identification civil</span>
+  </div>
+
+  <div class="cuf-content">
+    <div class="form-group">
+      <label for="numero_cni">N° Pièce d'identité</label>
+      <input type="text" id="numero_cni" placeholder="">
+    </div>
+
+    <div class="form-group">
+      <label for="numero_permis_conduire">N° Permis de conduire</label>
+      <input type="text" id="numero_permis_conduire" placeholder="">
+    </div>
+
+    <div class="form-group">
+      <label for="type_permis_conduire">Type de permis de conduire</label>
+      <select id="type_permis_conduire">
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="F">F</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="matricule_fonction_publique">Matricule de la fonction publique</label>
+      <input type="text" id="matricule_fonction_publique"
+        placeholder="">
+    </div>
+
+    <div class="form-group">
+      <label for="numero_cnss">N° CNSS</label>
+      <input type="text" id="numero_cnss" placeholder="">
+    </div>
+
+    <div class="form-group">
+      <label for="matricule_cnss">Matricule CNSS</label>
+      <input type="text" id="matricule_cnss" placeholder="">
+    </div>
+
+    <div class="form-group">
+      <label for="numero_cnamgs">N° CNAMGS</label>
+      <input type="text" id="numero_cnamgs" placeholder="">
+    </div>
+
+    <div class="form-group">
+      <label for="situation_familial">Situation familial</label>
+      <select type="text" id="situation_familial">
+        <option value="Celibataire">Célibataire</option>
+        <option value="Divorce">Divorcé</option>
+        <option value="Marie">Marié</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="nombre_enfant_charge">Nombre d'enfant à charge</label>
+      <input type="text" id="nombre_enfant_charge" placeholder="">
+    </div>
+  </div>
+
+  <div class="title">
+    <span class="text-h1">Formation</span>
+  </div>
+
+  <div class="cuf-content">
+    <div class="form-group">
+      <label for="niveau_etude">Niveau d'etude</label>
+      <input type="text" id="niveau_etude" placeholder="">
+    </div>
+
+    <div class="form-group">
+      <label for="dernier_diplome">Dernier diplome</label>
+      <input type="text" id="dernier_diplome" placeholder="">
+    </div>
+
+    <div class="form-group">
+      <label for="etablissement">Etablissement d'obtention du dernier diplome</label>
+      <input type="text" id="etablissement" placeholder="">
+    </div>
+
+    <div class="form-group">
+      <label for="profession_formation">Profession de formation</label>
+      <input type="text" id="profession_formation" placeholder="">
+    </div>
+  </div>
+
+  <div class="title">
+    <span class="text-h1">Contrat</span>
+  </div>
+
+  <div class="cuf-content">
+
+    <div class="form-group">
+      <label for="poste">Poste</label>
+      <input type="text" id="poste" placeholder="">
+    </div>
+
+    <div class="form-group">
+      <label for="mode_paiement_salaire">Mode de paiement du salaire</label>
+      <select id="mode_paiement_salaire">
+        <option value="Virement">Virement</option>
+        <option value="Cheque">Cheque</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="type_contrat">Type de contrat</label>
+      <select id="type_contrat">
+        <option value="CDI">CDI</option>
+        <option value="CDD">CDD</option>
+        <option value="Intermitant">Intermitant</option>
+        <option value="Stagiaire">Stagiaire</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="date_embauche">Date d'embauche</label>
+      <input type="date" id="date_embauche" placeholder="">
+    </div>
+
+    <div class="form-group">
+      <label for="date_fin_contrat">Date de fin du contrat</label>
+      <input type="date" id="date_fin_contrat" placeholder="">
+    </div>
+  </div>
+
+  <div class="title">
+    <span class="text-h1">Contact</span>
+  </div>
+
+  <div class="cuf-content">
+    <div class="form-group">
+      <label for="email">Adresse Email</label>
+      <input type="text" id="email" placeholder="">
+    </div>
+
+    <div class="form-group">
+      <label for="telephone">Telephone</label>
+      <input type="text" id="telephone" placeholder="">
+    </div>
+
+    <div class="form-group">
+      <label for="contact_de_secours">Contact de secours</label>
+      <input type="text" id="contact_de_secours" placeholder="">
+    </div>
+  </div>
+
+  <div class="title">
+    <span class="text-h1">Contrôle d'accès</span>
+  </div>
+
+  <div class="cuf-content">
+    <div class="form-group">
+      <label for="role">Role</label>
+      <div class="si-gp">
+        <input type="text" disabled id="role" placeholder="">
+        <select id="si-role">
+          <option value=""></option>
+          <option value="Root">Root</option>
+          <option value="Stock">Stock</option>
+          <option value="Genius">Genius</option>
+          <option value="Master">Master</option>
+          <option value="Vendeur">Vendeur</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="cuf-footer">
+    <button class="dlt-btn" id="updateBtn">Enregistrer les modifications</button>
+  </div>
+</div>

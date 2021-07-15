@@ -1,0 +1,43 @@
+.tab {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.tab .tab-header {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 1.7rem;
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  top: 63px;
+  background-color: white;
+  z-index: 2;
+}
+.tab .tab-header li {
+  padding-right: 2rem;
+  font-size: 13px;
+  color: #ccc;
+  transition: 0.4s;
+}
+.tab .tab-header li:hover {
+  cursor: pointer;
+  color: #000;
+}
+.tab .tab-header li.current {
+  color: #000;
+}
+.tab .tab-content > div {
+  display: none;
+}
+.tab .tab-content > .current {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .tab .tab-header {
+    top: 0;
+  }
+}
+
+/*# sourceMappingURL=tab.css.map */
