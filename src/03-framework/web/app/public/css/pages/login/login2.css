@@ -1,0 +1,107 @@
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #5e92f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main-wrapper {
+  background-color: white;
+  box-shadow: 1px -2px 10px #000;
+  border-radius: 8px;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  max-width: 100%;
+}
+main .main-wrapper h1 {
+  color: #777;
+}
+main .main-wrapper .welcome-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+main .main-wrapper .welcome-container .text-h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #777;
+  text-transform: uppercase;
+  padding: 2rem;
+}
+main .main-wrapper .welcome-container .text-h2 {
+  padding: 1rem;
+}
+main .main-wrapper .welcome-container .text-p {
+  text-align: center;
+  color: #777;
+}
+main .main-wrapper .welcome-container .logo-pharma {
+  width: 200px;
+}
+main .main-wrapper .form-container {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background: linear-gradient(#000000b6, #50505086), url(https://images.unsplash.com/photo-1555633514-abcee6ab92e1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+main .main-wrapper .form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+main .main-wrapper .form-container form .form-group {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+main .main-wrapper .form-container form .form-group input {
+  width: 80%;
+  padding: 1rem 0.5rem;
+  border: none;
+  border-radius: 4px;
+}
+main .main-wrapper .form-container .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+main .main-wrapper .form-container .row .outline-button {
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 13px;
+  padding: 0.7rem 1.5rem;
+  background: transparent;
+  border-radius: 50px;
+  transition: 0.4s;
+}
+main .main-wrapper .form-container .row .outline-button:hover {
+  border-color: #5e92f3;
+  color: #5e92f3;
+  cursor: pointer;
+}
+main .main-wrapper .form-container .row a {
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=login2.css.map */

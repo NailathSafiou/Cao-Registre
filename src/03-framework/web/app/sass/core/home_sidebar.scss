@@ -1,0 +1,43 @@
+@use '../variable';
+
+.sidebar {
+  min-height: 100vh;
+  max-height: 100vh;
+  padding-top: variable.$header-height;
+  border-right: 1px solid #cccccc;
+  position: sticky;
+  top: variable.$header-height;
+  left: 0;
+  background-color: white;
+  z-index: 5;
+  
+  .sidebar-item {
+    border-bottom: 1px solid #eee;
+    padding: 1rem;
+    .myicon {
+      font-size: 24px;
+      padding: 0rem 1rem;
+    }
+  }
+  
+  .selected-item {
+   background-color: variable.$color-hover; 
+  }
+  
+  .sidebar-item:hover {
+    cursor: pointer;
+    background-color: #eee;
+  }
+}
+
+.icon-admin {
+  color: variable.$color-root;
+}
+
+.icon-stats {
+  color: variable.$color-stock;
+}
+
+.icon-mail {
+  color: variable.$color-genius;
+}

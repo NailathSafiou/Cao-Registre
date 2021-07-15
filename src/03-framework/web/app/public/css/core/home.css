@@ -1,0 +1,37 @@
+main {
+  display: flex;
+  flex-direction: row;
+}
+main .sidebar {
+  width: 20%;
+}
+main .center-canvas {
+  flex: 1;
+  padding-top: 63px;
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  main .sidebar {
+    transition: 0.4s;
+    overflow: hidden;
+    width: 100%;
+  }
+  main .center-canvas {
+    transition: 0.4s;
+    overflow: hidden;
+    width: 0%;
+  }
+
+  .display-canvas .sidebar {
+    width: 0%;
+  }
+  .display-canvas .center-canvas {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=home.css.map */

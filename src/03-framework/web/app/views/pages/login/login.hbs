@@ -1,0 +1,36 @@
+{{#> header }}
+
+<link rel="stylesheet" href="/css/core/login_sidebar.css">
+<link rel="stylesheet" href="/css/pages/login/login.css">
+
+<main>
+  <div class="main-wrapper">
+    <img src="/assets/img/logo.png" alt="" class="logo">
+
+    <span class="title"><strong>Bienvenu,</strong></span>
+    <span class="subtitle">Rejoignez l'organisation pour travailler avec vos collaborateur</span>
+
+    <div class="form-container">
+      <div class="form-group">
+        <label for="username">Adresse email</label>
+        <input type="text" id="username">
+      </div>
+
+      <div class="form-group">
+        <label for="password">Mot de passe</label>
+        <input type="password" id="password">
+      </div>
+
+      <div class="form-group">
+        <button class="dlt-btn" id="loginBtn">Se connecter</button>
+      </div>
+
+      <a href="/login/forgot">Mot de passe oublie ?</a>
+    </div>
+  </div>
+  {{>login_sidebar}}
+</main>
+
+<script src="/js/page/login/login.js" type="module"></script>
+
+{{/header}}

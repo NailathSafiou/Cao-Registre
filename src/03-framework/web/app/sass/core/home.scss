@@ -1,0 +1,45 @@
+@use "../variable";
+
+main {
+  display: flex;
+  flex-direction: row;
+
+  .sidebar {
+    width: 20%;
+  }
+
+  .center-canvas {
+    flex: 1;
+    padding-top: variable.$header-height;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 100vw;
+    overflow-x: hidden;
+
+    .sidebar {
+      transition: 0.4s;
+      overflow: hidden;
+      width: 100%;
+    }
+
+    .center-canvas {
+      transition: 0.4s;
+      overflow: hidden;
+      width: 0%;
+    }
+  }
+
+  .display-canvas {
+
+    .sidebar {
+      width: 0%;
+    }
+
+    .center-canvas {
+      width: 100%;
+    }
+  }
+}

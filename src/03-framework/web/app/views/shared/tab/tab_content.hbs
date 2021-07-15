@@ -1,0 +1,5 @@
+<div class="tab-content">
+  {{#each tabcontent}}
+    <div>{{> (lookup . 'partial') }}</div>
+  {{/each}}
+</div>

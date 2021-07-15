@@ -1,0 +1,19 @@
+<nav class="sidebar">
+  <div class="{{#if root}}selected-item{{/if}} sidebar-item"
+    onclick="window.location.href= '/root'">
+    <span class="myicon icon-admin"></span>
+    <span class="text-p">Administration</span>
+  </div>
+
+  <div class="{{#if courrier}}selected-item{{/if}} sidebar-item"
+    onclick="window.location.href= '/home'">
+    <span class="myicon icon-mail"></span>
+    <span class="text-p">Menu 2</span>
+  </div>
+
+  <div class="{{#if stat}}selected-item{{/if}} sidebar-item"
+    onclick="window.location.href= '/home'">
+    <span class="myicon icon-stats"></span>
+    <span class="text-p">Menu 3</span>
+  </div>
+</nav>
